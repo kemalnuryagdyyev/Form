@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" name="email" />
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+      <label for="lastname">Lastname:</label>
+      <input type="text" name="lastname" id="lastname" />
+      <label for="date_of_birth">Date of birth:</label>
+      <input type="date" name="date_of_birth" />
+      <label for="phone_number">Phone number:</label>
+      <input type="tel" name="phone_number" id="phone_number" />
+      <label for="choose_plan">Choose your plan:</label>
+      <select name="choose_plan" id="choose_plan">
+        <option value="free_plan">Free plan</option>
+        <option value="125$_plan">125$ plan</option>
+        <option value="225$_plan">225$ plan</option>
+        <option value="325$_plan">325$ plan</option>
+      </select>
+      <span>
+        <label for="pro_plan">Pro plan</label>
+        <input type="checkbox" name="pro_plan" id="pro_plan" />
+      </span>
+      <label for="credit_card_number">Credit Card Number:</label>
+      <input type="tel" name="credit_card_number" id="credit_card_number" />
+      <label for="cvc">CVC:</label>
+      <input type="tel" name="cvc" id="cvc" />
+      <label for="expiration_date">Expiration date:</label>
+      <input type="month" name="expiration_date" id="expiration_date" />
+      <label for="billing_address">Billing address:</label>
+      <input type="text" name="billing_address" id="billing_address" />
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
